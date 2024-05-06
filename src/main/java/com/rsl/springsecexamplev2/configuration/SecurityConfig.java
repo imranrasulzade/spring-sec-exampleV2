@@ -17,10 +17,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Slf4j
 public class SecurityConfig {
 
-
     private final JwtAuthorizationFilter jwtAuthorizationFilter;
-
-
 
 
     @Bean
